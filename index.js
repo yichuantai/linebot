@@ -1,7 +1,8 @@
 /*module.exports = require('./lib/linebot');*/
 const linebot  = require('./lib/linebot');
 const express = require('express');
-
+ res.send('Hello World!');
+/*
 const bot = linebot({
 	channelId: process.env.CHANNEL_ID,
 	channelSecret: process.env.CHANNEL_SECRET,
@@ -29,3 +30,4 @@ bot.on('message', function (event) {
 app.listen(process.env.PORT || 80, function () {
 	console.log('LineBot is running.');
 });
+*/
