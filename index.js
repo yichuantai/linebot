@@ -1,4 +1,5 @@
-module.exports = require('./lib/linebot');
+/*module.exports = require('./lib/linebot');*/
+const linebot  = require('./lib/linebot');
 const express = require('express');
 
 const bot = linebot({
